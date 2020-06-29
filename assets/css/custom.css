@@ -8,3 +8,9 @@
 */
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.03); }
+
+@media only screen and (max-width: 600px) {
+    .hide-mobile {
+      display: none;
+    }
+  }
